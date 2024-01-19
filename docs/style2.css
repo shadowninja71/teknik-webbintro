@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: rgb(153, 0, 255);
+   text-align: center;
+    background-color: rgb(0, 204, 255);
+}
+main {
+    max-width: 60rem;
+    margin-inline: auto;
+    padding: 2rem;
+}
+
+.navigation{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
