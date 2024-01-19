@@ -1,9 +1,8 @@
 body{
     font-family: sans-serif;
     font-size: 1.2rem;
-    color: rgb(217, 255, 0);
-   text-align: center;
-    background-color: rgb(0, 4, 255);
+    /* text-align: center; */
+
 }
 main {
     max-width: 60rem;
@@ -16,4 +15,14 @@ main {
     padding: 0;
     display: flex;
     gap: 1rem;
+}
+
+.hem {
+    color: rgb(217, 255, 0);
+    background-color: rgb(0, 4, 255);
+}
+
+.om {
+    color: rgb(153, 0, 255);
+    background-color: rgb(0, 204, 255);
 }

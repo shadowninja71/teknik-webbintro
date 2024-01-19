@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body class="hem">
     <main>
         <nav>
             <ul class="navigation"> 
@@ -17,8 +17,21 @@
         </nav>
         <h1> yeay</h1>
         <h2>my name is viktor</h2>
-        <img src="minecratf.jpg" alt="">
-        <img src="axolotel.jpg" alt="">
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">
+            <img src="minecratf.jpg" alt="en bild på minecarft">
+        </a>
+        <a href="https://orteil.dashnet.org/cookieclicker/" target="_blank">
+            <img src="axolotel.jpg" alt="en bild på en axolotel">
+        </a>
+        <button id="click">Count: 0</button>
+        <script>
+          const button = document.querySelector('#click');
+          let count = 0;
+          button.addEventListener('click', () => {
+            count++;
+            button.textContent = `Count: ${count}`;
+          });
+        </script>
     </main>
 </body>
 </html>
