@@ -8,6 +8,15 @@ main {
     max-width: 60rem;
     margin-inline: auto;
     padding: 2rem;
+    background-color: rgb(149, 131, 192);
+}
+
+nav {
+    background-color: rgb(194, 196, 91);
+}
+
+article {
+    background-color: blueviolet;
 }
 
 .navigation{
@@ -26,3 +35,9 @@ main {
     color: rgb(153, 0, 255);
     background-color: rgb(0, 204, 255);
 }
+
+.teknik{
+    color: rgb(175, 53, 149);
+    background-color: rgb(80, 68, 124);
+}
+
